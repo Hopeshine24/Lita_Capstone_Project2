@@ -74,5 +74,20 @@ SELECT
     COUNT(CASE WHEN Canceled = True THEN 1 END) AS CanceledSubscriptions
 FROM CustomerData;
 ```
+ Month 	 Sum of Sales 
+ Jan 	 248,000 
+ Feb 	 546,300 
+ Mar 	 107,175 
+ Apr 	 46,865 
+ May 	 104,280 
+ Jun 	 247,600 
+ Jul 	 274,800 
+ Aug 	 204,180 
+ Sep 	 34,720 
+ Oct 	 133,920 
+ Nov 	 103,950 
+ Dec 	 49,300 
+ Grand Total 	 2,101,090 
+![image](https://github.com/user-attachments/assets/e87bf16c-a50c-4d60-af3b-ea9db257a546)
 
 
