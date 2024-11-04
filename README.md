@@ -75,6 +75,6 @@ SELECT
 FROM CustomerData;
 ```
 
-![image](https://github.com/user-attachments/assets/e87bf16c-a50c-4d60-af3b-ea9db257a546)
+
 
 
