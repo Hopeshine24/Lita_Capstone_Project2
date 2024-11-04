@@ -14,16 +14,14 @@ The customer data includes the following columns:
 - Total number of customers from each region
   
   ```
-  SELECT Region, COUNT(CustomerID) AS TotalCustomers
-FROM CustomerData
+  SELECT Region, COUNT(CustomerID) AS TotalCustomers FROM CustomerData
 GROUP BY Region;
 ```
 
 2. Most popular subscription type by the number of customers
 
 ```
-SELECT SubscriptionType, COUNT(CustomerID) AS NumberOfCustomers
-FROM CustomerData
+SELECT SubscriptionType, COUNT(CustomerID) AS NumberOfCustomers FROM CustomerData
 GROUP BY SubscriptionType
 ORDER BY NumberOfCustomers DESC
 LIMIT 1;
@@ -34,7 +32,11 @@ LIMIT 1;
 ```
 SELECT AVG(DATEDIFF(SubscriptionEnd, SubscriptionStart)) AS AvgSubscriptionDuration
 FROM CustomerData;
+```
+
 5.	Customers with subscriptions longer than 12 months
+
+```
 SELECT CustomerID, CustomerName, SubscriptionType, SubscriptionStart, SubscriptionEnd
 FROM CustomerData
 WHERE DATEDIFF(SubscriptionEnd, SubscriptionStart) > 365;
