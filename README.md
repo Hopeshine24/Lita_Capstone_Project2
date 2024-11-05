@@ -8,8 +8,11 @@ This project involves analyzing customer data for a subscription service to iden
 
 ## Project Objective
 This project was designed to address the following analysis goals:
-i. Understand customer behaviour 
+
+i. Understand customer behaviour
+
 ii. Track subscription types
+
 iii. Identify key trends in cancellations and renewals
 
 ## Data Collected
@@ -35,6 +38,7 @@ The customer data includes the following columns:
 ## Visual Analysis
 Pivot Table
 - The Average Subscription duration
+  
 ![image](https://github.com/user-attachments/assets/4ea96c51-e3f4-4f09-b3bb-f99b43549682)
 
 - Subscription Patterns
@@ -44,6 +48,7 @@ Pivot Table
 - Bar Chart
   
  ![image](https://github.com/user-attachments/assets/5a7f676a-9feb-4ef5-8c21-72334aa07a82)
+
 
 ![image](https://github.com/user-attachments/assets/e39c5442-995a-431b-a946-801baa89f209)
 
