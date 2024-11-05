@@ -38,19 +38,26 @@ The customer data includes the following columns:
 ## Visual Analysis
 Pivot Table
 - The Average Subscription duration
-  
-![image](https://github.com/user-attachments/assets/4ea96c51-e3f4-4f09-b3bb-f99b43549682)
+
+ ![image](https://github.com/user-attachments/assets/29b18ee8-4cba-4abc-833d-451180c8fc8a)
 
 - Subscription Patterns
+ 
+![image](https://github.com/user-attachments/assets/e0883ef7-5077-45bc-ab43-3876757ebc4a)
 
-![image](https://github.com/user-attachments/assets/f721527f-cfb1-4b3d-bf89-788ba4f0e795)
 
 - Bar Chart
   
- ![image](https://github.com/user-attachments/assets/5a7f676a-9feb-4ef5-8c21-72334aa07a82)
+![image](https://github.com/user-attachments/assets/d5562a1f-c4e0-4c5c-9183-8bad75802b79)
+
+![image](https://github.com/user-attachments/assets/b15a730b-c16b-4da8-9131-cf42803bd406)
+
+![image](https://github.com/user-attachments/assets/43aab313-f8fd-4162-8e75-9eb98e61c2bb)
 
 
-![image](https://github.com/user-attachments/assets/e39c5442-995a-431b-a946-801baa89f209)
+Structured Query Language
+
+The queries for the following are:
 
 - Total number of customers from each region
 
